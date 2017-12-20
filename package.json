@@ -1,0 +1,28 @@
+{
+  "name": "unique-iterable",
+  "version": "1.0.0",
+  "description": "Filters an iterable object so it doesn’t yield the same value more than once.",
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/unique-iterable",
+  "repository": "lamansky/unique-iterable",
+  "main": "index.js",
+  "files": [],
+  "dependencies": {
+    "filter-iter": "^1.0.0",
+    "is-new": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
