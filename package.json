@@ -1,6 +1,6 @@
 {
   "name": "unique-iterable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Filters an iterable object so it doesn’t yield the same value more than once.",
   "keywords": [
     "unique",
