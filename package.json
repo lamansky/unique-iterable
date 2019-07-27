@@ -2,7 +2,10 @@
   "name": "unique-iterable",
   "version": "1.0.0",
   "description": "Filters an iterable object so it doesn’t yield the same value more than once.",
-  "author": "John Lamansky",
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/lamansky/unique-iterable",
   "repository": "lamansky/unique-iterable",
