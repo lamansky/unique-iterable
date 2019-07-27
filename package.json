@@ -2,6 +2,12 @@
   "name": "unique-iterable",
   "version": "1.0.0",
   "description": "Filters an iterable object so it doesn’t yield the same value more than once.",
+  "keywords": [
+    "unique",
+    "iterable",
+    "iterator",
+    "filter"
+  ],
   "author": {
     "name": "Fr. John Lamansky",
     "url": "lamansky.com"
