@@ -6,6 +6,8 @@ Optionally lets you set a numeric limit on total unique values yielded.
 
 ## Installation
 
+Requires [Node.js](https://nodejs.org/) 7.0.0 or above.
+
 ```bash
 npm install unique-iterable --save
 ```

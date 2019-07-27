@@ -11,6 +11,9 @@
   "repository": "lamansky/unique-iterable",
   "main": "index.js",
   "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
   "dependencies": {
     "filter-iter": "^1.0.0",
     "is-new": "^1.0.0"
