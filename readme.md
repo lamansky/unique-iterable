@@ -18,7 +18,7 @@ The module exports a single function.
 
 ### Parameters
 
-1. `iter` (iterable): The iterable whose values should be filtered for duplicates.
+1. Bindable: `iter` (iterable): The iterable whose values should be filtered for duplicates.
 2. Object argument:
     * Optional: `limit` (integer): The maximum number of unique items to yield. Defaults to `Infinity`.
 
