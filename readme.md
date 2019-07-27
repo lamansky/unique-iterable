@@ -9,12 +9,24 @@ Optionally lets you set a numeric limit on total unique values yielded.
 Requires [Node.js](https://nodejs.org/) 7.0.0 or above.
 
 ```bash
-npm install unique-iterable --save
+npm i unique-iterable
 ```
+
+## API
 
 The module exports a single function.
 
-## Usage Example
+### Parameters
+
+1. `iter` (iterable): The iterable whose values should be filtered for duplicates.
+2. Object argument:
+    * Optional: `limit` (integer): The maximum number of unique items to yield. Defaults to `Infinity`.
+
+### Return Value
+
+An iterable object that will iterate any given value only once.
+
+## Example
 
 ```javascript
 const uniqueIterable = require('unique-iterable')
